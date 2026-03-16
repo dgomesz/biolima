@@ -1,0 +1,74 @@
+/* Sintaxe */
+
+/* seletor{
+    propriedade: valor
+
+} */
+
+p{
+    color: purple; 
+}
+
+/* atv 1 */
+/* nome da cor: */
+h1{
+    color: aquamarine;
+}
+/* codigo da cor */
+h2{
+    color: #131313;
+}
+/* RGB */
+h3{
+    color: rgb(255, 0, 0);
+}
+
+h4{
+    color: rgba(0, 0, 255, 0.544);
+}
+
+p{
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* altere o tamanho da fonte */
+    font-size: 50px;
+
+    /* espessura da fonte */
+
+    font-weight: 50;
+
+    /* distancia de linha */
+    line-height: 1;
+
+    /* transformando texto */
+    text-transform: capitalize;
+}
+
+.box{
+    width: 200px;
+    background-color: #59ee59;
+    padding: 10px;
+    border: 20px dashed #ffffff;
+    margin: 20px;
+}
+
+.terra{
+    padding: 10px;
+    font-size: 50px;
+    font-weight: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 20px;
+    border: #000000 dotted 20px ;
+    color: gray;
+    background-color: lightblue;
+}
+
+.verde{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border:#000000 solid 5px;
+    padding: 25px 15px 25px 15px;
+    border-radius: 10px;
+    background-color: #5cfe62;
+    margin-left: 20px;
+}
+
